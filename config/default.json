@@ -1,7 +1,7 @@
 {
   "port": 3100,
   "host": "localhost",
-  "mongoDbUrl": "<url>",
+  "mongoDbUrl": "",
   "tokenSecret": "ARI@TOKEN_123",
   "fileStoragePath": "../uploads/",
   "appPrefix": "api/v1",
@@ -15,10 +15,10 @@
   },
   "adminCreateToken": "sadeSd@#s4fv$sd",
   "emailService": {
-    "testDomain": "<mailgun domain>",
-    "testEmail": "<mailgun from email>",
-    "privateApiKey": "<mailgun key>",
-    "publicApiKey": "<mailgun pub key>",
+    "testDomain": "",
+    "testEmail": "",
+    "privateApiKey": "",
+    "publicApiKey": "",
     "emailTemplates": {
       "forgotPassword": "forgot-password-template",
       "verifyEmail": "verify-email-template",
